@@ -1,7 +1,19 @@
-/*the background*/
-body{
+/*index background*/
+.body{
     background-image: url(doctors\ computer.jpg);
     background-size: cover;
+}
+
+/*login background*/
+.body1{
+    background-image: url(medical.jpg);
+    background-size: 1600px;
+}
+
+/*dashboard background*/
+.body2{
+    background-color: #ffffff;
+    margin: 0;
 }
 
 /*the form*/
@@ -89,14 +101,14 @@ body{
     font-size: 10px;
     font-family: Inter;
     font-weight: bold;
-    padding: 10px;
-    width: 80px;
+    padding: 5px;
     transition: all 0.5s;
     cursor: pointer;
-    margin-top: 50px;
 }
 
 .proceed span{
+    margin-top: 50px;
+    width: 60px;
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -108,7 +120,7 @@ body{
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -20px;
+    right: 10px;
     transition: 0.5s;
 }
 
@@ -119,4 +131,106 @@ body{
 .proceed:hover span:after{
     opacity: 1;
     right: 0;
+}
+
+/*login form*/
+.login{
+    width: 300px;
+    background: linear-gradient(rgba(156, 231, 245, 0.247), rgba(0, 0, 0, 0.247));
+    margin-left: 800px;
+    margin-top: 200px;
+    text-align: center;
+    padding: 30px;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+/*input*/
+.input{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.input::placeholder{
+    text-align: center;
+}
+
+/*input submit button*/
+.a{
+    border-radius: 4px;
+    background-color: #27D5E8;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/*sidebar*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #27D5E8;
+    position: fixed;
+    height: 85%;
+    overflow: auto;
+}
+
+/*sidebar image*/
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid #000;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+
+/*right side*/
+.rhs{
+    margin-left:25%;
+    padding:1px 16px;
+}
+
+/*search button*/
+.search{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid #27D5E8;
+}
+
+.put{
+    all: unset;
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.put::placeholder {
+    color: #000;
+    opacity: 0.7; 
+}
+
+.button3{
+    background-color: #27D5E8;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    border: none;
 }
