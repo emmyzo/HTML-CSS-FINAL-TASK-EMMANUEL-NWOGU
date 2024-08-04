@@ -1,0 +1,122 @@
+/*the background*/
+body{
+    background-image: url(doctors\ computer.jpg);
+    background-size: cover;
+}
+
+/*the form*/
+.form{
+    width: 650px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.247));
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+/*form text*/
+.form h1{
+    font-family: Mouse Memoirs;
+    font-size: 70px;
+    line-height: 2px;
+}
+
+.form h3{
+    font-family: New Rocker;
+    word-spacing: 8px;
+    font-weight: lighter;
+}
+
+/*buttons design*/
+.button{
+    font-family: New Rocker;
+    margin-top: 50px;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #27D5E8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #ffffff;
+}
+  
+.button:hover{
+    background-color: #1399CF
+}
+  
+.button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button1{
+    font-family: New Rocker;
+    margin-left: 30px;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #27D5E8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #ffffff;
+}
+  
+.button1:hover{
+    background-color: #1399CF
+}
+  
+.button1:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/*proceed button animation*/
+.proceed{
+    border-radius: 4px;
+    background-color: #27D5E8;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: bold;
+    padding: 10px;
+    width: 80px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.proceed span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.proceed span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.proceed:hover span{
+    padding-right: 10px;
+}
+
+.proceed:hover span:after{
+    opacity: 1;
+    right: 0;
+}
