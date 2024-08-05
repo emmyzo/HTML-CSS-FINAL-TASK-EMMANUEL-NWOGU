@@ -187,10 +187,43 @@ ul{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: solid #000;
+    border: solid #1081C7;
     margin-left: 80px;
     margin-top: 30px;
     background-color: #ffffff;
+}
+
+/*sidebar lists*/
+.li{
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.li a{
+    text-decoration: none;
+    color: #084F8C;
+    font-weight: bold;
+}
+
+/*sidebar button*/
+.button4{
+    background-color: #ffffff;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 8px;
+    margin-top: 100px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #1081C7;
+    border: solid #1081C7;
+    margin-left: 120px;
+}
+
+.button4:hover{
+    background-color: #1081C7;
+    color: #ffffff;
+    border: solid #ffffff;
 }
 
 /*right side*/
@@ -233,4 +266,97 @@ ul{
     align-items: center;
     cursor: pointer;
     border: none;
+}
+
+/*rhs contaents*/
+/*items list*/
+.item1 { grid-area: image; }
+.item2 { grid-area: text; }
+.item3 { grid-area: text1;}
+.item4 { grid-area: vitals; }
+
+/*grid container alignment*/
+.grid-container{
+  display: grid;
+  grid-template-areas:
+    'image text text text text text'
+    'image text1 text1 text1 text1 text1'
+    'vitals text1 text1 text1 text1 text1';
+  gap: 30px;
+  padding: 20px;
+}
+
+/*items adjustments*/
+.item1{
+    height: 600px;
+    width: 500px;
+    background-color: white;
+    border: solid 3px #27D5E8;
+}
+
+.item1 img{
+    height: 600px;
+    width: 500px;
+}
+
+.item2{
+    height: 313px;
+    background-color: white;
+    font-size: 20px;
+    border: solid 3px #27D5E8;
+    text-align: justify;
+}
+
+.item2 p{
+    padding: 10px;
+    margin: 0%;
+}
+
+.item3{
+    height: 313px;
+    background-color: white;
+    font-size: 20px;
+    border: solid 3px #27D5E8;
+    text-align: justify;
+}
+
+.item3 p{
+    padding: 10px;
+    margin: 0%;
+}
+
+/*button design for item2 and item3*/
+.button2{
+    background-color: #ffffff;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #000000;
+    border: solid #27D5E8;
+}
+
+.button2:hover{
+    background-color: #27D5E8;
+    color: #ffffff;
+    border: solid #ffffff;
+}
+
+.item4{
+    width: 500px;
+    background-color: white;
+    font-size: 20px;
+    border: solid 3px #1081C7;
+    background-color: #27D5E8;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.item4 a{
+    text-decoration: none;
+    color: #1081C7;
+    font-weight: bolder;
 }
