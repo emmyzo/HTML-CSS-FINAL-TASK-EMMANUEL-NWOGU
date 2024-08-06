@@ -61,7 +61,7 @@
 }
   
 .button:active{
-    background-color: #3e8e41;
+    background-color: #27D5E8;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -86,7 +86,7 @@
 }
   
 .button1:active{
-    background-color: #3e8e41;
+    background-color: #27D5E8;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
